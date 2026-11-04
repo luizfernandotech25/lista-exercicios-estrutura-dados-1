@@ -1,0 +1,14 @@
+# Arquivos gerados pelo Maven
+target/
+
+# Arquivos compilados Java
+*.class
+
+# Configurações locais do NetBeans
+nbproject/private/
+
+# Configurações de outras IDEs
+.idea/
+
+# Arquivos de log
+*.log
