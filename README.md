@@ -13,7 +13,7 @@ Repositório destinado ao desenvolvimento e à documentação das atividades pr�
 |---|---|---|
 | 01 | Pilhas — inversão de texto e palíndromo | Concluído |
 | 02 | Remoção de elemento em pilha | Concluído |
-| 03 | Fila de decolagem de aeronaves | Pendente |
+| 03 | Fila de decolagem de aeronaves | Concluído |
 | 04 | Inversão de fila | Pendente |
 | 05 | Interação entre fila e pilha | Pendente |
 | 06 | Operações com fila e pilha | Pendente |
