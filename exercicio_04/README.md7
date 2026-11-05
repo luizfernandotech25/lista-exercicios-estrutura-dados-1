@@ -1,0 +1,41 @@
+
+# Exercício 04 — Inversão de uma Fila
+
+**Disciplina:** Estrutura de Dados I  
+**Curso:** Tecnologia em Sistemas para Internet  
+**Instituição:** IF Goiano
+
+## Objetivo
+
+Desenvolver um programa em Java que crie uma fila com 100 números aleatórios e gere uma segunda fila contendo os mesmos elementos em ordem inversa.
+
+## Implementação
+
+Foram utilizadas três estruturas:
+
+- `F1`: fila original com 100 números aleatórios.
+- `Pilha`: estrutura auxiliar utilizada para inverter a ordem dos elementos.
+- `F2`: fila que recebe os elementos na ordem inversa.
+
+## Estratégia utilizada
+
+1. Gerar 100 números aleatórios e inseri-los em F1.
+2. Transferir os elementos de F1 para a pilha auxiliar.
+3. Desempilhar os elementos e inseri-los em F2.
+4. Exibir as duas filas e suas quantidades de elementos.
+
+## Tecnologias
+
+- Java
+- Maven
+- Apache NetBeans 31
+
+## Execução
+
+Executar a classe `Exercicio_04`.
+
+## Observação
+
+Os números aleatórios são gerados no intervalo de 1 a 1000.
+
+A pilha utiliza a política LIFO (*Last In, First Out*) para inverter a ordem dos elementos da fila.
