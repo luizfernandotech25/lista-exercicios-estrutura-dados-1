@@ -20,7 +20,7 @@ Repositório destinado ao desenvolvimento e à documentação das atividades pr�
 | 07 | Inversão de fila utilizando pilha | Concluído |
 | 08 | Separação de números em pilhas | Concluído |
 | 09 | Soma recursiva de uma lista | Concluído |
-| 10 | Potenciação recursiva | Pendente |
+| 10 | Potenciação recursiva | Concluído |
 
 ## Organização
 
