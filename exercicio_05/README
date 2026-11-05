@@ -1,0 +1,66 @@
+
+# Exercício 05 – Interação entre Fila e Pilha
+
+**Disciplina:** Estrutura de Dados I  
+**Curso:** Tecnologia em Sistemas para Internet  
+**Instituição:** IF Goiano  
+**Linguagem:** Java  
+**IDE:** Apache NetBeans 31
+
+## Objetivo
+
+Desenvolver um programa que utilize simultaneamente as estruturas de dados Fila e Pilha.
+
+O programa deve:
+
+1. Criar uma fila F com números distintos.
+2. Criar uma pilha P inicialmente vazia.
+3. Sortear 1.000 números aleatórios.
+4. Verificar se cada número sorteado já existe na fila.
+5. Caso exista, inserir o número na pilha.
+6. Caso não exista, inserir o número no final da fila.
+7. Exibir os elementos das duas estruturas ao final da execução.
+
+## Implementação
+
+Foi desenvolvida a classe `Exercicio_05`, utilizando as seguintes estruturas:
+
+- `Queue<Integer>`: representa a fila F.
+- `LinkedList<Integer>`: implementação da fila.
+- `Deque<Integer>`: representa a pilha P.
+- `ArrayDeque<Integer>`: implementação da pilha.
+- `Random`: geração dos números aleatórios.
+
+## Estratégia utilizada
+
+A fila é inicializada com dez números distintos, de 1 a 10.
+
+Em seguida, são realizados 1.000 sorteios de números inteiros entre 1 e 100.
+
+Para cada número sorteado, o método `contains()` verifica sua existência na fila.
+
+- Se o número já estiver na fila, será inserido na pilha por meio de `push()`.
+- Caso contrário, será adicionado ao final da fila por meio de `offer()`.
+
+## Tecnologias
+
+- Java
+- Maven
+- Apache NetBeans 31
+
+## Execução
+
+Executar a classe `Exercicio_05`.
+
+## Resultado
+
+Ao final, o programa apresenta:
+
+- Conteúdo da fila F.
+- Conteúdo da pilha P.
+- Quantidade de elementos em cada estrutura.
+- Total de números sorteados.
+
+## Observação
+
+A fila mantém apenas números distintos. A pilha armazena todas as ocorrências dos números sorteados que já estavam presentes na fila no momento da verificação.
