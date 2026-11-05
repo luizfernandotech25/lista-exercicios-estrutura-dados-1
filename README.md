@@ -18,7 +18,7 @@ Repositório destinado ao desenvolvimento e à documentação das atividades pr�
 | 05 | Interação entre fila e pilha | Concluído |
 | 06 | Operações com fila e pilha | Concluído |
 | 07 | Inversão de fila utilizando pilha | Concluído |
-| 08 | Separação de números em pilhas | Pendente |
+| 08 | Separação de números em pilhas | Concluído |
 | 09 | Soma recursiva de uma lista | Pendente |
 | 10 | Potenciação recursiva | Pendente |
 
